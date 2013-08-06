@@ -9,5 +9,8 @@
 #import <UIKit/UIKit.h>
 
 @interface ViewController : UIViewController
-
+{
+    IBOutlet UIButton *btn;
+}
+-(IBAction)showMsg:(id)sender;
 @end
